@@ -5,28 +5,28 @@
 ## Projects
 
 ### ⚛️ [Ligand Identification with Equivariant Neural Networks](https://github.com/agatabielska/ligand-identification)
-E3NN-based equivariant neural networks for ligand identification in X-ray crystallography and cryoEM density maps.
+Equivariant neural networks for ligand identification in X-ray crystallography and cryoEM density maps, providing rotational equivariance for arbitrary ligand orientations. Used E3NN framework and Clifford Steerable CNN.
+
+### 🧠 [RAG Learning Assistant](https://github.com/jakubradziejewski/rag-learning-assistant) *(in progress)*
+AI-powered study platform combining RAG-based document Q&A with SM-2/FSRS spaced repetition scheduling — upload lecture materials, get context-aware answers with sources, and have an agent plan optimised revision sessions adapted to your knowledge gaps. Fully local inference via Docker Model Runner, cloud LLM support planned.
 
 ### 🏗️ [Crack Detection](https://github.com/jakubradziejewski/crack-detection)
-Weakly-supervised semantic segmentation using dilated ResNet-34 + Grad-CAM++ for pseudo-labels and U-Net for pixel-level crack detection.
+Weakly-supervised semantic segmentation achieving pixel-level precision using only image-level labels — dilated ResNet-34 + Grad-CAM++ for pseudo-label generation, U-Net for refinement.
 
 ### 🔬 [LiveCell Instance Segmentation](https://github.com/jakubradziejewski/livecell-instance-segmentation)
-Custom Mask R-CNN with CBAM attention for live cell microscopy, with Docker setup, DVC data versioning, and Gradio inference interface.
-
-### 🚗 [Detecting Moving Objects in DAS Recordings](https://github.com/jakubradziejewski/detecting-moving-objects-in-das-recordings)
-Vehicle detection from fiber-optic DAS sensor data using adaptive thresholding and Hough Transform with velocity-based filtering.
-
-### 🧠 [RAG Learning Assistant](https://github.com/jakubradziejewski/rag-learning-assistant)
-Local AI study tool — upload lecture PDFs, ask questions, get answers with sources. Fully local, no cloud APIs.
-
-### 📚 [Wikipedia Recommending System](https://github.com/jakubradziejewski/wikipedia_recommending_system)
-Content-based article recommender using TF-IDF and cosine similarity with explainability analysis.
+Custom Mask R-CNN with CBAM attention for live cell microscopy segmentation, with full MLOps setup — Docker, DVC data versioning, and Gradio inference interface.
 
 ### 🎲 [Gameplay Event Detection](https://github.com/jakubradziejewski/gameplay_event_detection)
-Classical CV pipeline for real-time multi-object detection and event recognition in Summoner Wars board game footage.
+Real-time multi-object detection and event recognition pipeline for board game footage using watershed segmentation, KCF tracking, and Hough transforms.
+
+### 🚗 [Detecting Moving Objects in DAS Recordings](https://github.com/jakubradziejewski/detecting-moving-objects-in-das-recordings)
+Vehicle trajectory extraction from fiber-optic DAS sensor data using adaptive thresholding, morphological operations, and velocity-based Hough Transform filtering.
+
+### 📚 [Wikipedia Recommending System](https://github.com/jakubradziejewski/wikipedia_recommending_system)
+Content-based article recommender built with Scrapy, NLTK, and TF-IDF cosine similarity, with explainability analysis across multiple recommendation strategies.
 
 ### 🏆 [Tournament System](https://github.com/jakubradziejewski/tournament-system)
-Full-stack real-time tournament platform with Next.js, Socket.IO, and PostgreSQL.
+Full-stack real-time tournament platform with Next.js, Socket.IO, PostgreSQL, JWT auth, and race condition prevention via database transactions.
 
 ---
 <div align="center">
