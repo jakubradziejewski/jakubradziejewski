@@ -1,39 +1,32 @@
-# Hi there, I'm Jakub! 👋
+# Hi, I'm Jakub 👋
 
-## 🎓 About Me
-3rd-year Artificial Intelligence BSc student passionate about computer vision, deep learning, and building practical AI systems. I focus on hands-on projects that solve real-world problems using both classical and modern machine learning approaches.
+3rd-year AI BSc student at Poznań University of Technology. Interested in medical imaging, vision systems, RAG pipelines, and building things that actually work. Currently exploring AI agents and local LLM applications.
 
-## 🚀 Featured Projects
-
-### 🏗️ [Crack Detection](https://github.com/jakubradziejewski/crack-detection)
-Weakly-supervised semantic segmentation using only image-level labels. Two-stage pipeline with dilated ResNet-34 + Grad-CAM++ for pseudo-labels, then U-Net for refined segmentation. Achieves pixel-level precision without manual masks.
+## Projects
 
 ### ⚛️ [Ligand Identification with Equivariant Neural Networks](https://github.com/agatabielska/ligand-identification)
-Equivariant neural networks for ligand identification in X-ray crystallography and cryoEM density maps. Implemented E3NN architecture with probabilistic point cloud sampling, achieving competitive performance on single-modality data while leveraging rotational equivariance for arbitrary ligand orientations.
+E3NN-based equivariant neural networks for ligand identification in X-ray crystallography and cryoEM density maps.
+
+### 🏗️ [Crack Detection](https://github.com/jakubradziejewski/crack-detection)
+Weakly-supervised semantic segmentation using dilated ResNet-34 + Grad-CAM++ for pseudo-labels and U-Net for pixel-level crack detection.
 
 ### 🔬 [LiveCell Instance Segmentation](https://github.com/jakubradziejewski/livecell-instance-segmentation)
-Custom Mask R-CNN with ResNet-18 backbone and CBAM attention for live cell microscopy segmentation. Built with PyTorch, includes Docker setup, DVC for data versioning, and Gradio interface for inference.
-
-### 🎲 [Gameplay Event Detection](https://github.com/jakubradziejewski/gameplay_event_detection)
-Computer vision pipeline for Summoner Wars board game analysis using classical CV techniques. Implements watershed segmentation, KCF tracking, and Hough transforms for multi-object detection and real-time event recognition.
+Custom Mask R-CNN with CBAM attention for live cell microscopy, with Docker setup, DVC data versioning, and Gradio inference interface.
 
 ### 🚗 [Detecting Moving Objects in DAS Recordings](https://github.com/jakubradziejewski/detecting-moving-objects-in-das-recordings)
-Vehicle detection from fiber-optic DAS sensor data. Uses adaptive thresholding, morphological operations, and Hough Transform with velocity-based filtering to extract vehicle trajectories from noisy spatiotemporal signals.
+Vehicle detection from fiber-optic DAS sensor data using adaptive thresholding and Hough Transform with velocity-based filtering.
+
+### 🧠 [RAG Learning Assistant](https://github.com/jakubradziejewski/rag-learning-assistant)
+Local AI study tool — upload lecture PDFs, ask questions, get answers with sources. Fully local, no cloud APIs.
 
 ### 📚 [Wikipedia Recommending System](https://github.com/jakubradziejewski/wikipedia_recommending_system)
-Content-based article recommender using Scrapy for data collection, NLTK for preprocessing, and TF-IDF + Cosine Similarity for recommendations. Includes explainability analysis and multiple recommendation strategies.
+Content-based article recommender using TF-IDF and cosine similarity with explainability analysis.
 
-### 🍎 [Image Classification](https://github.com/jakubradziejewski/image_classification)
-Fruit classification comparing CLIP embeddings vs histogram features. Explores dimensionality reduction (PCA, t-SNE, UMAP) and clustering algorithms (K-Means, Agglomerative, DBSCAN, GMM).
+### 🎲 [Gameplay Event Detection](https://github.com/jakubradziejewski/gameplay_event_detection)
+Classical CV pipeline for real-time multi-object detection and event recognition in Summoner Wars board game footage.
 
 ### 🏆 [Tournament System](https://github.com/jakubradziejewski/tournament-system)
-Full-stack real-time tournament platform with Next.js, Socket.IO, and PostgreSQL. Features live bracket updates, JWT authentication, Prisma ORM, and race condition prevention.
-
-### 🛒 [Shopping System](https://github.com/jakubradziejewski/shopping-system-nodejs-mysql)
-E-commerce backend with Node.js, Express, and MySQL. Implements session-based cart management, transaction-level concurrency control with database transactions, and the PRG pattern.
-
-### 🎬 [Film Collection App](https://github.com/jakubradziejewski/film-collection-app-react)
-React-based inventory manager with Vite. Demonstrates state management, controlled components, lifecycle hooks, and dynamic filtering/sorting with a clean component architecture.
+Full-stack real-time tournament platform with Next.js, Socket.IO, and PostgreSQL.
 
 ---
 <div align="center">
@@ -43,22 +36,4 @@ React-based inventory manager with Vite. Demonstrates state management, controll
 
 ---
 
-## 📫 Let's Connect
-
-Always happy to collaborate on interesting projects! Reach out on **[LinkedIn](https://www.linkedin.com/in/jakub-radziejewski/)**.
-
-Thanks for stopping by! 👋
-<!--
-**jakubradziejewski/jakubradziejewski** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**[LinkedIn](https://www.linkedin.com/in/jakub-radziejewski/)**
