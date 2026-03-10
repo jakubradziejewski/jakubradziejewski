@@ -1,6 +1,6 @@
 # Hi, I'm Jakub 👋
 
-3rd-year AI BSc student at Poznań University of Technology. Interested in medical imaging, vision systems, RAG pipelines, and building things that actually work. Currently exploring AI agents and local LLM applications.
+Final year BEng student of Artificial Intelligence at Poznań University of Technology. Interested in medical imaging, vision systems, RAG pipelines, and building things that actually work. Currently exploring AI agents and local LLM applications.
 
 ## Projects
 
