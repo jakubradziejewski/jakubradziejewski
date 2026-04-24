@@ -8,10 +8,10 @@ Final year BEng student of Artificial Intelligence at Poznań University of Tech
 Equivariant neural networks for ligand identification in X-ray crystallography and cryoEM density maps, providing rotational equivariance for arbitrary ligand orientations. Used E3NN framework and Clifford Steerable CNN.
 
 ### 🧠 [RAG Learning Assistant](https://github.com/jakubradziejewski/rag-learning-assistant) *(in progress)*
-AI-powered study platform combining RAG-based document Q&A with SM-2/FSRS spaced repetition scheduling — upload lecture materials, get context-aware answers with sources, and have an agent plan optimised revision sessions adapted to your knowledge gaps. Fully local inference via Docker Model Runner, cloud LLM support planned.
+RAG-based study platform with SM-2/FSRS spaced repetition. Upload lecture materials, get context-aware answers with sources, and have an agent schedule revision sessions around your knowledge gaps. Fully local inference via Docker Model Runner.
 
 ### 🏭 [StackGear AI](https://github.com/jakubradziejewski/stackgear-ai)
-Full-stack hardware inventory management system with AI-powered capabilities — natural language semantic search and an automated inventory auditor powered by Google Gemini, real-time updates via Socket.IO, and role-based access control. Backend in FastAPI + SQLAlchemy on Render, frontend in Vue 3 + Pinia on Vercel, database on Neon PostgreSQL.
+Full-stack hardware inventory management system with AI-powered semantic search and automated inventory auditing via Google Gemini. Features real-time Socket.IO updates and role-based access control. FastAPI + Vue 3, deployed on Render/Vercel/Neon.
 
 ### 🏗️ [Crack Detection](https://github.com/jakubradziejewski/crack-detection)
 Weakly-supervised semantic segmentation achieving pixel-level precision using only image-level labels — dilated ResNet-34 + Grad-CAM++ for pseudo-label generation, U-Net for refinement.
