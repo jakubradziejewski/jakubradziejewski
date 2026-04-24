@@ -10,6 +10,9 @@ Equivariant neural networks for ligand identification in X-ray crystallography a
 ### 🧠 [RAG Learning Assistant](https://github.com/jakubradziejewski/rag-learning-assistant) *(in progress)*
 AI-powered study platform combining RAG-based document Q&A with SM-2/FSRS spaced repetition scheduling — upload lecture materials, get context-aware answers with sources, and have an agent plan optimised revision sessions adapted to your knowledge gaps. Fully local inference via Docker Model Runner, cloud LLM support planned.
 
+### 🏭 [StackGear AI](https://github.com/jakubradziejewski/stackgear-ai)
+Full-stack hardware inventory management system with AI-powered capabilities — natural language semantic search and an automated inventory auditor powered by Google Gemini, real-time updates via Socket.IO, and role-based access control. Backend in FastAPI + SQLAlchemy on Render, frontend in Vue 3 + Pinia on Vercel, database on Neon PostgreSQL.
+
 ### 🏗️ [Crack Detection](https://github.com/jakubradziejewski/crack-detection)
 Weakly-supervised semantic segmentation achieving pixel-level precision using only image-level labels — dilated ResNet-34 + Grad-CAM++ for pseudo-label generation, U-Net for refinement.
 
